@@ -1,0 +1,77 @@
+/**
+* Theme Name: CSS for the theme
+* Theme URl: http://---
+* Description:
+* Version: 1.0
+* Author: Domenica Burroughs
+* Author URI: http://disegnasacchetta.net
+*
+* Copyright HashBallot 2014, not to be redistributed.
+*/
+
+body {
+  margin: auto 0;
+  padding: 0;
+}
+
+html {
+  font: normal 75%/1.5
+}
+
+p {
+  font-family: Roboto, HelveticaNeue, Helvetica, Arial, sans-serif;
+  font-size: 1.15em;
+  font-weight: 100;
+  line-height: 1.7;
+  color: #222;
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto Slab';
+  font-weight: 300;
+}
+
+a {
+  color:#a81919;
+  text-decoration:none;
+  -webkit-transition:color .25s;
+  linear,background-color .15s;
+  linear;-moz-transition:color .25s;
+  linear,background-color .15s;
+  linear;-o-transition:color .25s;
+  linear,background-color .15s;
+  linear;transition:color .25s;
+  linear,background-color .15s;
+  linear;border:0;
+}
+
+a:hover {
+  color:#e24526
+}
+
+code, pre {
+  color:#777
+}
+
+pre {
+  font-size:.85em;
+  padding:1em 1em 1em 3em;
+  background:#fbfbfb;
+  border-radius:10px;
+  -moz-border-radius:10px;
+  -webkit-border-radius:10px;
+}
+
+code {
+  font-size:.9em;
+}
+
+hr{
+  border:0;
+  margin:35px 50px;
+  height:1px;
+  background-image:-webkit-linear-gradient(left,rgba(200,200,200,0),rgba(200,200,200,0.75),rgba(200,200,200,0));
+  background-image:-moz-linear-gradient(left,rgba(200,200,200,0),rgba(200,200,200,0.75),rgba(200,200,200,0));
+  background-image:-ms-linear-gradient(left,rgba(200,200,200,0),rgba(200,200,200,0.75),rgba(200,200,200,0));
+  background-image:-o-linear-gradient(left,rgba(200,200,200,0),rgba(200,200,200,0.75),rgba(200,200,200,0))
+}
