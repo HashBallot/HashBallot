@@ -1,0 +1,51 @@
+{
+  "meteor": {},
+  "dependencies": {
+    "basePackages": {
+      "iron-router": {},
+      "bootstrap-3": {},
+      "twit": {},
+      "fast-render": {},
+      "apm": {},
+      "moment": {},
+      "blaze-layout": {}
+    },
+    "packages": {
+      "iron-router": {
+        "git": "https://github.com/EventedMind/iron-router.git",
+        "tag": "v0.6.4",
+        "commit": "927bbaed1b87894fb6fb70807f74ff3a5bd89f29"
+      },
+      "bootstrap-3": {
+        "git": "https://github.com/mangasocial/meteor-bootstrap-3.git",
+        "tag": "v3.1.1-1",
+        "commit": "63dd38968828bb8963636df93e9a1c45e2dfe67e"
+      },
+      "twit": {
+        "git": "https://github.com/subhog/meteor-twit.git",
+        "tag": "v0.2.0",
+        "commit": "3eb473f9efef8c77ae6a8eb6715fbdf93c4d87c0"
+      },
+      "fast-render": {
+        "git": "https://github.com/arunoda/meteor-fast-render.git",
+        "tag": "v0.1.18",
+        "commit": "dbfc8178594e5f696a39541278aac5dd25d458a0"
+      },
+      "apm": {
+        "git": "https://github.com/arunoda/meteor-apm-client.git",
+        "tag": "v0.2.13",
+        "commit": "f9e77e1ca6a7ccab5a4f3a7b5c8295296906cf35"
+      },
+      "moment": {
+        "git": "https://github.com/acreeger/meteor-moment.git",
+        "tag": "v2.5.1",
+        "commit": "8c9bc5d3fc96705057737cb9743d555417f6e551"
+      },
+      "blaze-layout": {
+        "git": "https://github.com/EventedMind/blaze-layout.git",
+        "tag": "v0.2.1",
+        "commit": "f52f416d6277f27b11832355298553e46b8cc6fd"
+      }
+    }
+  }
+}

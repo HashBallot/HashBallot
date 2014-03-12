@@ -7,3 +7,9 @@ standard-app-packages
 autopublish
 insecure
 preserve-inputs
+iron-router
+bootstrap-3
+twit
+fast-render
+apm
+moment
